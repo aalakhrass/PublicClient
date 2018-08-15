@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PublicClient_Example' do
+  pod 'PublicClient', :path => '../'
+
+  target 'PublicClient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
